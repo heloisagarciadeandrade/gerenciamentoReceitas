@@ -12,4 +12,4 @@ $query= "update cadastros set faixa2qnt=faixa2qnt+1, faixa2total=faixa2total+$fa
 
 mysqli_query($conexao, $query);
 
-header('location:index.php?pagina=producao');
+header('location:index.php?pagina=producao'); //teste
